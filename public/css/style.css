@@ -48,3 +48,12 @@ background-color:#5b4da6;
     font-size: 35px;
     color: #fff;
 }
+
+.searchCity{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.yourLocation{
+    color: white;
+}

@@ -29,14 +29,14 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
-            <form action="/" method="post" class="searchCity">
-                <label for="">Your Location:</label>
-                <input type="text" id="city" class="city" name="city">
-                <button type="submit">Search</button>
-            </form>
         </div>
     </nav>
     <div class="container1">
+        <form action="/" method="post" class="searchCity">
+            <label for="" class="yourLocation">Your Location:</label>
+            <input type="text" id="city" class="city" name="city">
+            <button type="submit">Search</button>
+        </form>
         <div class="data">
             <p class="place-info">
                 <%=sendData.location %>, <%=sendData.country %>
