@@ -17,9 +17,9 @@ button {
     cursor: pointer;
 }
 
-button:hover{
-background-image:none;
-background-color:#5b4da6;
+button:hover {
+    background-image: none;
+    background-color: #5b4da6;
 }
 
 .container1 {
@@ -29,7 +29,7 @@ background-color:#5b4da6;
     overflow: hidden;
 }
 
-.data{
+.data {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,22 +38,21 @@ background-color:#5b4da6;
     color: rgb(230, 207, 207);
 }
 
-.date-time{
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
+.date-time {
+    margin-left: 20px;
 }
 
-.time, .date{
+.time,
+.date {
     font-size: 35px;
     color: #fff;
 }
 
-.searchCity{
+.searchCity {
     text-align: center;
     margin: 40px auto;
 }
 
-.yourLocation{
+.yourLocation {
     color: white;
 }
